@@ -9,7 +9,7 @@ const server = http.createServer((req, res) => {
     res.end('<h1>Hello</h1><p>The World is Amazing</p>')
 })
 
-server.listen(port,
-    hotName, () => {
-    console.log(`Port Number : ${port} and HostName is : ${hotName}`);
+server.listen(port, () => {
+    console.log(`Port Number : ${port}`);
+    console.log(`HostName is : ${hotName}`);
 })
