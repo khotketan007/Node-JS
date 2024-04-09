@@ -30,5 +30,5 @@ const myServer = http.createServer((req, res) => {
 
 })
 
-// Now we can Declaing the port Number
+// Now we can Declaring the port Number
 myServer.listen(7000, () => console.log("Server Started!"))
