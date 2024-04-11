@@ -1,0 +1,16 @@
+Rest API -> JSON
+
+GET /users -> List all users ==> Completed
+
+GET /user/(ID)1 -> get the User with id 1 - Done
+GET /user/(ID)2 -> get the User with id 2 - Done
+
+Dynamic path parameter
+:id =>(Dynamic Variable)  Means the ID is anything
+GET /api/users/:id(Dynamic variable) - Done
+
+POST /user -> Creat the new user
+
+PATCH /user/ID -> Edit the user with ID
+
+DELETE /user/1 -> delete the user with ID 1
