@@ -1,7 +1,5 @@
-.kk-bold{
-  font-weight: 500;
-  color: rgb(214, 63, 227);
-}
 .food-heading{
+  padding: 10px;
+  border: 1px solid purple;
   background-color: cadetblue;
 }
