@@ -1,7 +1,7 @@
 function Slogan() {
   return (
     <>
-      <h4>This is the Clock that shows the Time in Bharat as all Times</h4>
+      <p>This is the Clock that shows the Time in Bharat as all Times</p>
     </>
   );
 }

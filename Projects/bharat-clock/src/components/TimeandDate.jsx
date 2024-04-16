@@ -1,15 +1,15 @@
 function TimeandDate() {
-  let date = new Date().toDateString();
-  let now = new Date();
-  let hours = now.getHours();
-  let minutes = now.getMinutes();
-  let seconds = now.getSeconds();
+  let date = new Date();
+  // let now = new Date();
+  // let hours = now.getHours();
+  // let minutes = now.getMinutes();
+  // let seconds = now.getSeconds();
 
   return (
     <>
-      <h4>
-        Current Data and Time : {date} and Time : {hours} : {minutes} :{seconds}
-      </h4>
+      <p>
+        Current Data and Time : {date.toLocaleDateString()} - {date.toLocaleTimeString()}
+      </p>
     </>
   );
 }
