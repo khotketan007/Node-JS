@@ -1,6 +1,7 @@
 import FoodItems from "./components/FoodItems";
 import ErrorMesg from "./components/ErrorMesg";
 import React from "react";
+import "./App.css";
 
 function App() {
   let FoodItem = [
@@ -13,7 +14,7 @@ function App() {
   ];
   return (
     <>
-      <h1>Helthy Food</h1>
+      <h1 className="food-heading">HelthY Food</h1>
       {/* Logical Operator */}
       <ErrorMesg items={FoodItem} />
       <FoodItems items={FoodItem} />

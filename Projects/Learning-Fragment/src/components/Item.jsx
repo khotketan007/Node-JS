@@ -3,7 +3,9 @@ const Item = ({ Fooditem }) => {
   // let { foodItem } = props;
   return (
     <>
-      <li className="list-group-item ">{Fooditem}</li>
+      <li className="list-group-item">
+        <span className="kk-bold">{Fooditem}</span>
+      </li>
     </>
   );
 };
