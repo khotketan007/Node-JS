@@ -1,7 +1,8 @@
 .food-heading {
   padding: 10px;
   border: 2px solid purple;
-  background-color: cadetblue;
-  padding: 15px;
+  background-color: rgb(185, 228, 229);
   border-radius: 4px;
+  text-align: center;
+  padding: 10px;
 }
