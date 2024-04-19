@@ -1,5 +1,8 @@
 .kk-bold {
   font-weight: 400;
-  background-color: rgb(118, 217, 124);
-  color: rgb(48, 32, 49);
+  background-color: rgb(243, 180, 117);
+  color: rgb(66, 62, 67);
+  font-size: 30px;
+  border-radius: 3px;
+  padding: 4px;
 }
