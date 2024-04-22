@@ -1,5 +1,5 @@
 // Function Definition
-function AddTodo() {
+function AddTodo({onNewItem}) {
   return (
     <div className="row Kk-row">
       <div className="col-6">
@@ -9,7 +9,7 @@ function AddTodo() {
         <input type="date"></input>
       </div>
       <div className="col-2">
-        <button type="button" className="btn btn-success Kk-Button">
+        <button type="button" className="btn btn-success Kk-Button" onClick={() => onNewItem('a','b')}>
           Add
         </button>
       </div>

@@ -2,9 +2,10 @@ import AddTodo from "./components/AddTodo";
 import AppName from "./components/AppName";
 import "./App.css";
 import TodoItems from "./components/TodoItems";
+import { useState } from "react";
 
 function App() {
-  const todoItems = [
+  const initialTodoItems = [
     {
       name: "Buy Milk",
       date: "15/04/2024",
@@ -15,15 +16,21 @@ function App() {
     },
     {
       name: "Today is Wednesday",
-      date: "Hello",
+      date: "22/04/2024",
     },
   ];
+
+  const [todoItems, settodoItems] = useState(initialTodoItems)
+
+  const handleNewItem = (itemName, itemDueDate) => {
+    console.log(`New item Added : Name : ${itemName} & Date : ${itemDueDate}`);
+  }
 
   return (
     <center className="todo-container">
       {/* We break the components and assemble them into */}
       <AppName />
-      <AddTodo />
+      <AddTodo onNewItem={handleNewItem}/>
       <TodoItems todoItems={todoItems} />
     </center>
   );
