@@ -19,7 +19,7 @@ function App() {
 
   return (
     <Container>
-      <h1 className="food-heading">HelthY Food</h1>
+      <h1 className="food-heading">Healthy Food</h1>
       <FoodInput handleKeyDown={onKeyDown}></FoodInput>
       <FoodItems items={FoodItem} />
       <ErrorMesg items={FoodItem} />
